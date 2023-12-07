@@ -1,0 +1,11 @@
+# core
+fastapi
+uvicorn
+
+# database
+fastapi-sqlalchemy
+psycopg2-binary
+pydantic
+
+# environments
+PyYAML
