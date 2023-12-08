@@ -6,15 +6,12 @@
 virtualenv venv
 .\venv\Scripts\activate
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-uvicorn app.main:router --reload
+cd app
+uvicorn main:router --reload
 ```
 
 Just incase
 ```bash
-& "C:/Users/username/AppData/Local/Programs/Python/Python312/python.exe" -m pip install fastapi
-& "C:\Users\username\AppData\Local\Programs\Git\cmd\git.exe" 
-& "C:\Users\username\AppData\Local\Programs\Git\cmd\git.exe" config --global user.email "username.v@example.com"
-& "C:\Users\username\AppData\Local\Programs\Git\cmd\git.exe"  config --global user.name "username"
 pip install virtualenv
 ```
 
@@ -22,6 +19,8 @@ pip install virtualenv
 - use pydantic
 - Schema
 - base settings?
+- ValidationErrors
 - look for auto documentations
 - install postgres 
 - install docker desktop
+- pytest? (TDD)

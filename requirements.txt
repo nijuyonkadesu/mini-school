@@ -3,9 +3,10 @@ fastapi
 uvicorn
 
 # database
-fastapi-sqlalchemy
+sqlalchemy
 psycopg2-binary
 pydantic
+pydantic-settings
 
 # environments
 PyYAML
