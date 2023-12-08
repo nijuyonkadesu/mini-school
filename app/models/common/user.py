@@ -5,6 +5,7 @@ from models.database.user import DatabaseUser
 
 # Like Data Access Objects - to create, del, update actions with "models" (entities)
 class User(BaseModel):
+    roll_number: int
     email: str
     password: str
     confirmation: str

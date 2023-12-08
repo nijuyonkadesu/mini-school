@@ -1,7 +1,9 @@
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
 from models.common.user import User, get_user
+from models.database.user import DatabaseUser
+from models.common.user import get_user, create_user
 from utils.database import Base, engine, get_db
 from utils.load_config import settings
 
@@ -27,3 +29,9 @@ async def info():
        "app": settings.app,
    }
    
+@router.post("/users/add", status_code=status.HTTP_200_OK)
+def add_new_user(user: User, db: Session = Depends(get_db)):
+    try:
+        create_user(db, user)
+    except:
+        raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail="Not acceptable content")

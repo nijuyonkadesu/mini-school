@@ -16,11 +16,14 @@ pip install virtualenv
 ```
 
 ## TODO
-- use pydantic
-- Schema
-- base settings?
+- add values to db
 - ValidationErrors
+- JWT - use proper salting
+- *failsafe* function to catch generic success and raise
+- Alembic migration
+- add proper schema (roles)
+- change email type
+- version numbers on requirements.txt
 - look for auto documentations
-- install postgres 
 - install docker desktop
 - pytest? (TDD)
