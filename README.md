@@ -18,12 +18,41 @@ pip install virtualenv
 ## TODO
 - add values to db
 - ValidationErrors
-- JWT - use proper salting
+- JWT - use proper salting (add salt to db) + Secure Random
 - *failsafe* function to catch generic success and raise
 - Alembic migration
+- move apis to routers/
 - add proper schema (roles)
-- change email type
+- change email type [EmailStr] smth
 - version numbers on requirements.txt
 - look for auto documentations
 - install docker desktop
 - pytest? (TDD)
+
+## Quick Lookup
+### SQL
+- Declarative Mapping -> to further tune sql datatypes
+- CTE - common table expression to simplify complex queries
+- windowed function (operation over group of row instead of whole table) - *RANK*
+- Loader Strategies -> see them when needed
+
+### FastAPI
+- there's enum
+- https://app.quicktype.io/
+- path as Annotated + Query for validation  + ?regex
+- Annotated + Type + Depends `commons: Annotated[CommonQueryParams, Depends()]`
+- ... is required
+- add metadata to Query coz, they'll be part of openAPI
+- additional metadata, such as data validation, descriptions, default values -> PATH
+
+
+## Quick Explainations
+### SQL
+- backpopulate - keep python classes in consistent state (back & forth in a relationship)
+    - ^^ commit insert of parent first, then the next class in relation
+- only during flush, orm communicates with sql - autoflushed before select statement -> session.dirty True/False
+- rollback()
+
+### FastAPI
+- path operation order matters
+- Depends - manages lifecycle by itself

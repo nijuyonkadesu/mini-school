@@ -10,3 +10,8 @@ pydantic-settings
 
 # environments
 PyYAML
+
+# auth
+python-jose[cryptography]
+cryptography
+passlib[bcrypt]
