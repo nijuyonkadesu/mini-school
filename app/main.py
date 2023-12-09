@@ -5,6 +5,7 @@ from models.common.user import User, get_user
 from models.database.user import DatabaseUser
 from models.common.user import get_user, create_user
 from utils.database import Base, engine, get_db
+from utils.auth import AuthRequest, AuthResponse, authenticate_user, create_access_token
 from utils.load_config import settings
 
 Base.metadata.create_all(bind=engine)
@@ -35,3 +36,16 @@ def add_new_user(user: User, db: Session = Depends(get_db)):
         create_user(db, user)
     except:
         raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail="Not acceptable content")
+    
+@router.post("/token", status_code=status.HTTP_200_OK)
+async def login_for_access_token(req: AuthRequest, db: Session = Depends(get_db)):
+    user = authenticate_user(db, req)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect username or password",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    
+    token = create_access_token(req)
+    return AuthResponse(token=token)

@@ -1,0 +1,788 @@
+[
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseUser",
+        "importPath": "models.database.user",
+        "description": "models.database.user",
+        "isExtraImport": true,
+        "detail": "models.database.user",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseUser",
+        "importPath": "models.database.user",
+        "description": "models.database.user",
+        "isExtraImport": true,
+        "detail": "models.database.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_salted_hash",
+        "importPath": "utils.auth",
+        "description": "utils.auth",
+        "isExtraImport": true,
+        "detail": "utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthRequest",
+        "importPath": "utils.auth",
+        "description": "utils.auth",
+        "isExtraImport": true,
+        "detail": "utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthResponse",
+        "importPath": "utils.auth",
+        "description": "utils.auth",
+        "isExtraImport": true,
+        "detail": "utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "importPath": "utils.auth",
+        "description": "utils.auth",
+        "isExtraImport": true,
+        "detail": "utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "utils.auth",
+        "description": "utils.auth",
+        "isExtraImport": true,
+        "detail": "utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "utils.database",
+        "description": "utils.database",
+        "isExtraImport": true,
+        "detail": "utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "utils.database",
+        "description": "utils.database",
+        "isExtraImport": true,
+        "detail": "utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "utils.database",
+        "description": "utils.database",
+        "isExtraImport": true,
+        "detail": "utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "utils.database",
+        "description": "utils.database",
+        "isExtraImport": true,
+        "detail": "utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Annotated",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.common.user",
+        "description": "models.common.user",
+        "isExtraImport": true,
+        "detail": "models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "importPath": "models.common.user",
+        "description": "models.common.user",
+        "isExtraImport": true,
+        "detail": "models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "UserIdentity",
+        "importPath": "models.common.user",
+        "description": "models.common.user",
+        "isExtraImport": true,
+        "detail": "models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "models.common.user",
+        "description": "models.common.user",
+        "isExtraImport": true,
+        "detail": "models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "importPath": "models.common.user",
+        "description": "models.common.user",
+        "isExtraImport": true,
+        "detail": "models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "importPath": "models.common.user",
+        "description": "models.common.user",
+        "isExtraImport": true,
+        "detail": "models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "importPath": "models.common.user",
+        "description": "models.common.user",
+        "isExtraImport": true,
+        "detail": "models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "utils.load_config",
+        "description": "utils.load_config",
+        "isExtraImport": true,
+        "detail": "utils.load_config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "utils.load_config",
+        "description": "utils.load_config",
+        "isExtraImport": true,
+        "detail": "utils.load_config",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "site",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "site",
+        "description": "site",
+        "detail": "site",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "app.models.common.user",
+        "description": "app.models.common.user",
+        "peekOfCode": "class User(BaseModel):\n    roll_number: int\n    email: str\n    password: str\n    confirmation: str\n    # if user choose option F (dropout) his creds will be deleted \n    class config:\n        orm_mode = True\n## All user related CRUD activities are present here:\ndef get_user(db: Session, roll_number: int):",
+        "detail": "app.models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "app.models.common.user",
+        "description": "app.models.common.user",
+        "peekOfCode": "def get_user(db: Session, roll_number: int):\n    return db.query(DatabaseUser).filter(DatabaseUser.roll_number == roll_number).first()\ndef create_user(db: Session, user: User):\n    hashed_password = get_salted_hash(user.password)\n    db_user = DatabaseUser(roll_number=user.roll_number, email=user.email, hashed_password=hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return\n# Thing sent to and from server are of these classes",
+        "detail": "app.models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "app.models.common.user",
+        "description": "app.models.common.user",
+        "peekOfCode": "def create_user(db: Session, user: User):\n    hashed_password = get_salted_hash(user.password)\n    db_user = DatabaseUser(roll_number=user.roll_number, email=user.email, hashed_password=hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return\n# Thing sent to and from server are of these classes",
+        "detail": "app.models.common.user",
+        "documentation": {}
+    },
+    {
+        "label": "DatabaseUser",
+        "kind": 6,
+        "importPath": "app.models.database.user",
+        "description": "app.models.database.user",
+        "peekOfCode": "class DatabaseUser(Base):\n    __tablename__ = \"users\"\n    roll_number = Column(Integer, primary_key=True, index=True)\n    email = Column(String, unique=True, index=True)\n    hashed_password = Column(String)\n    # TODO: items = relationship(\"Item\", back_populates=\"owner\") smth like this is needed later\n    # ref: https://fastapi.tiangolo.com/tutorial/sql-databases/\n# Classes that are finally used to interact with database. \n# Not sent to anyone from the server",
+        "detail": "app.models.database.user",
+        "documentation": {}
+    },
+    {
+        "label": "AuthRequest",
+        "kind": 6,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "class AuthRequest(BaseModel):\n    roll_number: int\n    password: str\nclass AuthResponse(BaseModel):\n    token: str\nclass TokenClaim(BaseModel):\n    roll_number: int | None\n    expiry: datetime | None\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthResponse",
+        "kind": 6,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "class AuthResponse(BaseModel):\n    token: str\nclass TokenClaim(BaseModel):\n    roll_number: int | None\n    expiry: datetime | None\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_salted_hash(password):\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, req: AuthRequest) -> False | User:",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "TokenClaim",
+        "kind": 6,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "class TokenClaim(BaseModel):\n    roll_number: int | None\n    expiry: datetime | None\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_salted_hash(password):\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, req: AuthRequest) -> False | User:\n    user = get_user(db, req.roll_number)\n    if not user:",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_salted_hash(password):\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, req: AuthRequest) -> False | User:\n    user = get_user(db, req.roll_number)\n    if not user:\n        return False\n    if not verify_password(req.password, user.hashed_password):\n        return False",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_salted_hash",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def get_salted_hash(password):\n    return pwd_context.hash(password)\ndef authenticate_user(db: Session, req: AuthRequest) -> False | User:\n    user = get_user(db, req.roll_number)\n    if not user:\n        return False\n    if not verify_password(req.password, user.hashed_password):\n        return False\n    return user\ndef create_access_token(data: AuthRequest) -> str:",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate_user",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def authenticate_user(db: Session, req: AuthRequest) -> False | User:\n    user = get_user(db, req.roll_number)\n    if not user:\n        return False\n    if not verify_password(req.password, user.hashed_password):\n        return False\n    return user\ndef create_access_token(data: AuthRequest) -> str:\n    expiry = datetime.utcnow() + timedelta(days=EXPIRE_DAYS)\n    token_data = TokenClaim(data.roll_number, expiry)",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "def create_access_token(data: AuthRequest) -> str:\n    expiry = datetime.utcnow() + timedelta(days=EXPIRE_DAYS)\n    token_data = TokenClaim(data.roll_number, expiry)\n    encoded_jwt = jwt.encode(token_data, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\nasync def get_current_user(token: str, db: Session) -> User:\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        roll_number: str = payload.get(\"roll_number\")\n        token_data = TokenClaim(",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "SECRET_KEY = \"09d25e094faa6ca2556c818166b7a9563b93f7099f6f0f4caa6cf63b88e8d3e7\"\nALGORITHM = \"HS256\"\nEXPIRE_DAYS = 30\ncredentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n# Hashes are automatically salted, the salt is in the hash itself\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "ALGORITHM = \"HS256\"\nEXPIRE_DAYS = 30\ncredentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n# Hashes are automatically salted, the salt is in the hash itself\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "EXPIRE_DAYS",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "EXPIRE_DAYS = 30\ncredentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n# Hashes are automatically salted, the salt is in the hash itself\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\nclass AuthRequest(BaseModel):",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "credentials_exception",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n# Hashes are automatically salted, the salt is in the hash itself\npwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\nclass AuthRequest(BaseModel):\n    roll_number: int",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\noauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\nclass AuthRequest(BaseModel):\n    roll_number: int\n    password: str\nclass AuthResponse(BaseModel):\n    token: str\nclass TokenClaim(BaseModel):\n    roll_number: int | None\n    expiry: datetime | None",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "app.utils.auth",
+        "description": "app.utils.auth",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\nclass AuthRequest(BaseModel):\n    roll_number: int\n    password: str\nclass AuthResponse(BaseModel):\n    token: str\nclass TokenClaim(BaseModel):\n    roll_number: int | None\n    expiry: datetime | None\ndef verify_password(plain_password, hashed_password):",
+        "detail": "app.utils.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "app.utils.database",
+        "description": "app.utils.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 5,
+        "importPath": "app.utils.database",
+        "description": "app.utils.database",
+        "peekOfCode": "secrets = settings.database\nDATABASE_URL = f\"postgresql://{secrets[\"user\"]}:{secrets[\"password\"]}@{secrets[\"host\"]}:{secrets[\"port\"]}/{secrets[\"dbname\"]}\"\nengine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# this is used to create sql tables\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db",
+        "detail": "app.utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASE_URL",
+        "kind": 5,
+        "importPath": "app.utils.database",
+        "description": "app.utils.database",
+        "peekOfCode": "DATABASE_URL = f\"postgresql://{secrets[\"user\"]}:{secrets[\"password\"]}@{secrets[\"host\"]}:{secrets[\"port\"]}/{secrets[\"dbname\"]}\"\nengine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# this is used to create sql tables\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:",
+        "detail": "app.utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "app.utils.database",
+        "description": "app.utils.database",
+        "peekOfCode": "engine = create_engine(DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# this is used to create sql tables\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "app.utils.database",
+        "description": "app.utils.database",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\n# this is used to create sql tables\nBase = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "app.utils.database",
+        "description": "app.utils.database",
+        "peekOfCode": "Base = declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "app.utils.database",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "app.utils.load_config",
+        "description": "app.utils.load_config",
+        "peekOfCode": "class Settings(BaseSettings):\n   database: dict\n   app: dict\n   class Config:\n       env_file = \".env\"\n   @classmethod\n   def from_yaml(cls, filename: str):\n       with open(filename) as file:\n           data = yaml.safe_load(file)\n       return cls(**data)",
+        "detail": "app.utils.load_config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "app.utils.load_config",
+        "description": "app.utils.load_config",
+        "peekOfCode": "settings = Settings.from_yaml(\"configs/app_config.yaml\")",
+        "detail": "app.utils.load_config",
+        "documentation": {}
+    },
+    {
+        "label": "get_status",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def get_status():\n    return {\"status\" : \"Server up and running!\"}\n@router.get(\"/users/{roll_number}\", response_model=User)\ndef read_user(roll_number: int, db: Session = Depends(get_db)):\n    db_user = get_user(db, roll_number)\n    if db_user is None:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return db_user\n@router.get(\"/secret\")\nasync def info():",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "read_user",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def read_user(roll_number: int, db: Session = Depends(get_db)):\n    db_user = get_user(db, roll_number)\n    if db_user is None:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return db_user\n@router.get(\"/secret\")\nasync def info():\n   return {\n       \"database\": settings.database,\n       \"app\": settings.app,",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "add_new_user",
+        "kind": 2,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "def add_new_user(user: User, db: Session = Depends(get_db)):\n    try:\n        create_user(db, user)\n    except:\n        raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail=\"Not acceptable content\")\n@router.post(\"/token\", status_code=status.HTTP_200_OK)\nasync def login_for_access_token(req: AuthRequest, db: Session = Depends(get_db)):\n    user = authenticate_user(db, req.roll_number, req.password)\n    if not user:\n        raise HTTPException(",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "app.main",
+        "description": "app.main",
+        "peekOfCode": "router = FastAPI()\n@router.get(\"/\", response_model=dict, status_code=200)\ndef get_status():\n    return {\"status\" : \"Server up and running!\"}\n@router.get(\"/users/{roll_number}\", response_model=User)\ndef read_user(roll_number: int, db: Session = Depends(get_db)):\n    db_user = get_user(db, roll_number)\n    if db_user is None:\n        raise HTTPException(status_code=404, detail=\"User not found\")\n    return db_user",
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "bin_dir",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "bin_dir = os.path.dirname(abs_file)\nbase = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "base",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "base = bin_dir[: -len(\"Scripts\") - 1]  # strip away the bin part from the __file__, plus the path separator\n# prepend bin to PATH (this file is inside the bin directory)\nos.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"PATH\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"PATH\"] = os.pathsep.join([bin_dir, *os.environ.get(\"PATH\", \"\").split(os.pathsep)])\nos.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV\"] = base  # virtual env is right above bin directory\nos.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "os.environ[\"VIRTUAL_ENV_PROMPT\"]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "os.environ[\"VIRTUAL_ENV_PROMPT\"] = \"\" or os.path.basename(base)  # noqa: SIM222\n# add the virtual environments libraries to the host python import mechanism\nprev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "prev_length",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "prev_length = len(sys.path)\nfor lib in \"..\\\\Lib\\\\site-packages\".split(os.pathsep):\n    path = os.path.realpath(os.path.join(bin_dir, lib))\n    site.addsitedir(path.decode(\"utf-8\") if \"\" else path)\nsys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.path[:]",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.path[:] = sys.path[prev_length:] + sys.path[0:prev_length]\nsys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.real_prefix",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.real_prefix = sys.prefix\nsys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    },
+    {
+        "label": "sys.prefix",
+        "kind": 5,
+        "importPath": "venv.Scripts.activate_this",
+        "description": "venv.Scripts.activate_this",
+        "peekOfCode": "sys.prefix = base",
+        "detail": "venv.Scripts.activate_this",
+        "documentation": {}
+    }
+]
