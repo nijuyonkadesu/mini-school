@@ -16,9 +16,9 @@ pip install virtualenv
 ```
 
 ## TODO
-- add values to db
+- manage secrets of auth
 - ValidationErrors
-- JWT - use proper salting (add salt to db) + Secure Random
+- cascade delete records
 - *failsafe* function to catch generic success and raise
 - Alembic migration
 - move apis to routers/

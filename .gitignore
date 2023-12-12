@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+## my project customizations
+~
+look_at_it_later
+
 # Distribution / packaging
 .Python
 build/
