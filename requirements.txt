@@ -1,11 +1,12 @@
 # core
-fastapi==0.54.2
+fastapi==0.105.0
 uvicorn==0.24.0.post1
 
 # database
-sqlalchemy==1.4.50
+sqlalchemy==2.0.23
 psycopg2-binary==2.9.9
-pydantic==1.10.13
+pydantic==2.5.2
+pydantic[email]==2.5.2
 pydantic-settings==2.1.0
 
 # environments
@@ -16,6 +17,10 @@ python-jose[cryptography]==3.3.0
 cryptography==41.0.7
 passlib[bcrypt]==1.7.4
 
+# Scessfully installed PyYAML-6.0.1 annotated-types-0.6.0 anyio-3.7.1 bcrypt-4.1.1 cffi-1.16.0 click-8.1.7 colorama-0.4.6 cryptography-41.0.7 cython-0.29.36 ecdsa-0.18.0 fastapi-0.105.0 greenlet-3.0.2 h11-0.14.0 idna-3.6 passlib-1.7.4 psycopg2-binary-2.9.9 pyasn1-0.5.1 pycparser-2.21 pydantic-2.5.2 pydantic-core-2.14.5 pydantic-settings-2.1.0 python-dotenv-1.0.0 python-jose-3.3.0 rsa-4.9 six-1.16.0 sniffio-1.3.0 sqlalchemy-2.0.23 starlette-0.27.0 typing-extensions-4.9.0 uvicorn-0.24.0.post1 wheel-0.42.0
+# Successfully installed dnspython-2.4.2 email-validator-2.1.0.post1
+
 # additional packages - to fix wheel errors in windows
 cython<3.0.0
-wheel
+wheel==0.42.0
+
