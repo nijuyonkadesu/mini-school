@@ -1,12 +1,13 @@
 from fastapi import FastAPI, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
-from models.common.user import User, get_user
-from models.database.user import DatabaseUser
-from models.common.user import get_user, create_user
-from utils.database import Base, engine, get_db
-from utils.auth import AuthRequest, AuthResponse, authenticate_user, create_access_token
-from utils.load_config import settings
+# TODO fix class
+from schema.user import UserCreate, UserUpdate, User 
+from crud.crud_user import user
+from core.database import Base, engine, get_db
+from core.load_config import settings
+from schema.token import AuthRequest, AuthResponse
+from core.security import create_access_token
 
 Base.metadata.create_all(bind=engine)
 
@@ -18,7 +19,7 @@ def get_status():
 
 @router.get("/users/{roll_number}", response_model=User)
 def read_user(roll_number: int, db: Session = Depends(get_db)):
-    db_user = get_user(db, roll_number)
+    db_user = user.get(db, roll_number)
     if db_user is None:
         raise HTTPException(status_code=404, detail="User not found")
     return db_user
@@ -31,16 +32,16 @@ async def info():
    }
    
 @router.post("/users/add", status_code=status.HTTP_200_OK)
-def add_new_user(user: User, db: Session = Depends(get_db)):
+def add_new_user(req: UserCreate, db: Session = Depends(get_db)):
     try:
-        create_user(db, user)
+        user.create(db=db, obj_in=req)
     except:
         raise HTTPException(status_code=status.HTTP_406_NOT_ACCEPTABLE, detail="Not acceptable content")
     
 @router.post("/token", status_code=status.HTTP_200_OK)
 async def login_for_access_token(req: AuthRequest, db: Session = Depends(get_db)):
-    user = authenticate_user(db, req)
-    if not user:
+    db_user = user.authenticate_user(db, req)
+    if not db_user:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Incorrect username or password",
