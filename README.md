@@ -14,6 +14,9 @@ Just incase
 ```bash
 pip install virtualenv
 ```
+# Ongoing Refactor tasks
+1. Move orm files inside database & common to model & schema 
+2. Restructuring class
 
 ## TODO
 - manage secrets of auth
