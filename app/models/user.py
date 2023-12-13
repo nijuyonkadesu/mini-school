@@ -15,7 +15,3 @@ class User(Base):
     # TODO: items = relationship("Item", back_populates="owner") smth like this is needed later
     # ref: https://fastapi.tiangolo.com/tutorial/sql-databases/
 
-
-
-# Classes that are finally used to interact with database. 
-# Not sent to anyone from the server

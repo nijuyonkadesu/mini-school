@@ -19,15 +19,11 @@ pip install virtualenv
 2. Restructuring class
 
 ## TODO
-- manage secrets of auth
 - ValidationErrors
 - cascade delete records
 - *failsafe* function to catch generic success and raise
-- Alembic migration
 - move apis to routers/
 - add proper schema (roles)
-- change email type [EmailStr] smth
-- version numbers on requirements.txt
 - look for auto documentations
 - install docker desktop
 - pytest? (TDD)

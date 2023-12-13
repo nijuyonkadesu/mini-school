@@ -1,0 +1,5 @@
+# Generic single-database configuration.
+
+## Useful commands
+commit your configuartion: `alembic revision --autogenerate -m "simple user, simple db"`
+to adapt the db tables after model change: 'alembic upgrade head'
