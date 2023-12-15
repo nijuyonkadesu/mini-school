@@ -3,17 +3,16 @@
 
 ## Overview of commands
 ```bash
-virtualenv venv
-.\venv\Scripts\activate
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+cd "C:\Users\user\Documents\tasks\student-mgmt\"
 cd app
+..\venv\Scripts\activate
 uvicorn main:router --reload
 ```
-
-Just incase
+## Just in case
 ```bash
-pip install virtualenv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+
 # Ongoing Refactor tasks
 1. Move orm files inside database & common to model & schema 
 2. Restructuring class
@@ -23,9 +22,8 @@ pip install virtualenv
 - cascade delete records
 - *failsafe* function to catch generic success and raise
 - move apis to routers/
-- add proper schema (roles)
+- schema design
 - look for auto documentations
-- install docker desktop
 - pytest? (TDD)
 
 ## Quick Lookup

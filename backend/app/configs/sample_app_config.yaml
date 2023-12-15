@@ -1,0 +1,12 @@
+database:
+ host: localhost
+ port: 5432
+ user: myuser
+ password: mypassword
+ dbname: mydatabase
+# use host: localhost for local runs
+# host: db <-- this name should match with docker-compose.yml servcie name
+
+app:
+ debug: True
+ secret_key: mysecretkey
