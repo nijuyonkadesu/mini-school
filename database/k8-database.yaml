@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+  name: mini-school-db-deployment
+  labels:
+    app: psql
+    environment: dev
+    tier: database
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: psql
+  template:
+    metadata: 
+      name: mini-school-db-pod
+      labels:
+        app: psql
+    spec: 
+      containers:
+      - name: psql
+        image: postgres:0.0.1 
+        ports:
+        - containerPort: 5432 
+        envFrom:
+        - configMapRef:
+            name: db-configmap
+
+---
+
+# this service listens to anything that matches the label & listens port
+# since, it's a service, an image is not needed
+apiVersion: v1
+
+kind: Service
+
+metadata:
+  name: mini-school-db-service
+  labels:
+    app: psql 
+
+spec:
+  selector:
+    app: psql
+
+  ports:
+    - protocol: TCP
+      port: 8000
+      targetPort: 5432 
+
+# port <- the port which the service receives it's traffic
+# targetPort <- the service routes the traffic it received to the pod via 'targetPort'
+# containerPort <- should match with targetPort

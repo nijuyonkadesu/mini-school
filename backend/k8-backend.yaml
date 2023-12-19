@@ -1,0 +1,52 @@
+# 1. separate docker imgages - app, - db
+# 2. use them to deploy them in kubectl
+
+apiVersion: apps/v1
+
+kind: Deployment
+
+metadata:
+  name: mini-school-be-deployment
+  labels:
+    app: fastapi
+    environment: dev
+    tier: backend
+
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fastapi
+  template:
+    metadata: 
+      name: mini-school-be-pod
+      labels:
+        app: fastapi
+    spec: 
+      containers:
+      - name: fastapi
+        image: mini-school:0.0.3 
+        ports:
+        - containerPort: 80
+
+---
+
+# this service listens to anything that matches the label & listens port
+# since, it's a service, an image is not needed
+apiVersion: v1
+
+kind: Service
+
+metadata:
+  name: mini-school-be-service
+  labels:
+    app: fastapi 
+
+spec:
+  selector:
+    app: fastapi
+
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
