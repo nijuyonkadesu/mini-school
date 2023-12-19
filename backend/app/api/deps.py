@@ -37,3 +37,8 @@ def get_current_user(token: str, db: Session) -> User:
         
     except JWTError:
         raise credentials_exception
+
+# this file exsits to prevent cyclic import issues?
+# if you see here, the get_current_user function cannot be placed inside core.security 
+# because if you place there, core.security will be depend on crud.crud_user
+# and, crud.crud_user is already dependent on core.security (see? <-> now there's a loop)

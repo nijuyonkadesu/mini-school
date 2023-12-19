@@ -11,7 +11,7 @@ engine = create_engine(DATABASE_URL)
 
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
-# this is used to create sql tables
+# this is used to create sql tables during first connection
 Base = declarative_base()
 
 def get_db():

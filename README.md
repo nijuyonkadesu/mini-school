@@ -141,11 +141,17 @@ kubectl edit deploy mini-school-db-deployment
 - skim through FastAPI docs
 - use url/openapi.json and import it to postman directly
 - use service.namespace instead of localhost in FastAPI python app configs when deploying images as pods in k8 cluster
+- use base project generator using cookiecutter 
+- check best practices [like this](https://github.com/zhanymkanov/fastapi-best-practices) or smth similar
+- [python docs guide](https://realpython.com/documenting-python-code/)
+- check what is pydantic code
 
 ## TODO
-- ValidationErrors
-- cascade delete records
+- ValidationErrors and error handling in general
 - *failsafe* function to catch generic success and raise
-- move apis to routers/
+- move apis to `api/api_v1/endpoints/`
+- use Depends() on proper places
+- update schema and some more functionalities
 - pytest? (TDD)
-- schema design
+- user defined return types for all endpoints
+- user OAuth headers properly, and attach the validation to all endpoints

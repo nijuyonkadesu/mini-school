@@ -10,6 +10,9 @@ from schema.token import AuthRequest
 
 # update create and update schema
 class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
+    """
+    CRUD operations for anything that deals with User table
+    """
     def create(self, db: Session, *, obj_in: UserCreate) -> Optional[User]:
         db_obj = User(
                 roll_number=obj_in.roll_number,
@@ -27,7 +30,7 @@ class CRUDUser(CRUDBase[User, UserCreate, UserUpdate]):
         if isinstance(obj_in, dict):
             update_data = obj_in
         else:
-            update_data = obj_in.dict(exclde_unset=True)
+            update_data = obj_in.dict(exclude_unset=True)
 
         if update_data["password"]:
             hashed_password = get_salted_hash(update_data["password"])

@@ -15,10 +15,16 @@ router = FastAPI()
 
 @router.get("/", response_model=dict, status_code=200)
 def get_status():
+    """
+    running status
+    """
     return {"status" : "Server up and running!"}
 
 @router.get("/users/{roll_number}", response_model=User)
 def read_user(roll_number: int, db: Session = Depends(get_db)):
+    """
+    provide roll number to get the details of any user
+    """
     db_user = user.get(db, roll_number)
     if db_user is None:
         raise HTTPException(status_code=404, detail="User not found")
@@ -26,13 +32,19 @@ def read_user(roll_number: int, db: Session = Depends(get_db)):
 
 @router.get("/secret")
 async def info():
-   return {
-       "database": settings.database,
-       "app": settings.app,
-   }
+    """
+    display credentials
+    """
+    return {
+        "database": settings.database,
+        "app": settings.app,
+    }
    
 @router.post("/users/add", status_code=status.HTTP_200_OK)
 def add_new_user(req: UserCreate, db: Session = Depends(get_db)):
+    """
+    add a new user with roll_number, email, and password
+    """
     try:
         user.create(db=db, obj_in=req)
     except:
@@ -40,6 +52,9 @@ def add_new_user(req: UserCreate, db: Session = Depends(get_db)):
     
 @router.post("/token", status_code=status.HTTP_200_OK)
 async def login_for_access_token(req: AuthRequest, db: Session = Depends(get_db)):
+    """
+    get session token
+    """
     db_user = user.authenticate_user(db, req)
     if not db_user:
         raise HTTPException(

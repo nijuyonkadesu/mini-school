@@ -6,6 +6,7 @@ database:
  dbname: mydatabase
 # use host: localhost for local runs
 # host: db <-- this name should match with docker-compose.yml servcie name
+# host: service-name <- for kubernetes deployment
 
 app:
  debug: True
