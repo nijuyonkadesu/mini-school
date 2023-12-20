@@ -88,7 +88,7 @@ minikube image load mini-school:0.0.3
 kubectl create configmap db-configmap --from-env-file .\.env
 kubectl apply -f .\backend\k8-backend.yaml
 kubectl apply -f .\database\k8-database.yaml
-port-forward service/mini-school-be-service 80:80
+kubectl port-forward service/mini-school-be-service 80:80
 ```
 ### Diagnostics commands
 ```bash
